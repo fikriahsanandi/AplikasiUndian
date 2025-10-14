@@ -400,16 +400,13 @@ export default function Home() {
         className="absolute inset-0 w-full h-full pointer-events-none"
       />
       <div className="flex flex-col items-center justify-center min-h-screen bg-[#FAEFD9]">
-        <h1 className="text-6xl font-bold mb-6 text-[#332D2B]">
-          Undian Gathering Keluarga
-        </h1>
         <div className="flex gap-2 mt-3">
           <button
             className={`px-6 py-3 text-lg text-white rounded-lg transition-colors bg-[#008109] hover:bg-[#429F00] font-bold flex flex-col justify-center items-center`}
-            onClick={() => navigateToPage("/smarttv")}
+            onClick={() => navigateToPage("/grandprize")}
           >
-            {/* <img src="/smarttv.png" alt="Cash 200K" className="w-32 h-32" /> */}
-            Dinner Set
+            <img src="/smarttv.png" alt="Cash 200K" className="w-32 h-32" />
+            GRAND PRIZE
           </button>
         </div>
         <div className="flex gap-2 mt-3">
@@ -417,66 +414,45 @@ export default function Home() {
             className={`px-6 py-3 text-lg text-white rounded-lg transition-colors bg-[#008109] hover:bg-[#429F00] font-bold flex flex-col justify-center items-center`}
             onClick={() => navigateToPage("/smartwatch")}
           >
-            {/* <img src="/smartwatch.png" alt="Cash 200K" className="w-20 h-20" /> */}
-            Blanket
+            <img src="/smartwatch.png" alt="Cash 200K" className="w-20 h-20" />
+            SMARTWATCH
           </button>
           <button
             className={`px-6 py-3 text-lg text-white rounded-lg transition-colors bg-[#008109] hover:bg-[#429F00] font-bold flex flex-col justify-center items-center`}
-            onClick={() => navigateToPage("/tws")}
+            onClick={() => navigateToPage("/tumbler")}
           >
-            {/* <img src="/tws.png" alt="Cash 200K" className="w-20 h-20" /> */}
-            Coffe Cup
+            <img src="/corkcicle.png" alt="Cash 200K" className="w-20 h-20" />
+            TUMBLER
           </button>
           <button
             className={`px-6 py-3 text-lg text-white rounded-lg transition-colors bg-[#008109] hover:bg-[#429F00] font-bold flex flex-col justify-center items-center`}
-            onClick={() => navigateToPage("/corkcicle")}
+            onClick={() => navigateToPage("/speaker")}
           >
-            {/* <img src="/corkcicle.png" alt="Cash 200K" className="w-20 h-20" /> */}
-            Blander Portable
-          </button>
-          <button
-            className={`px-6 py-3 text-lg text-white rounded-lg transition-colors bg-[#008109] hover:bg-[#429F00] font-bold flex flex-col justify-center items-center`}
-            onClick={() => navigateToPage("/powerbank")}
-          >
-            {/* <img src="/corkcicle.png" alt="Cash 200K" className="w-20 h-20" /> */}
-            Power Bank
+            <img src="/speaker.png" alt="Cash 200K" className="w-20 h-20" />
+            SPEAKER
           </button>
         </div>
         <div className="flex gap-2 mt-3">
           <button
             className={`px-6 py-3 text-lg text-white rounded-lg transition-colors bg-[#008109] hover:bg-[#429F00] font-bold flex flex-col justify-center items-center`}
-            onClick={() => navigateToPage("/tableclock")}
+            onClick={() => navigateToPage("/ewallet1")}
           >
-            {/* <img src="/corkcicle.png" alt="Cash 200K" className="w-20 h-20" /> */}
-            Table Clock
+            <img src="/250k.png" alt="Cash 200K" className="w-20 h-20" />E
+            WALLET 1
           </button>
           <button
             className={`px-6 py-3 text-lg text-white rounded-lg transition-colors bg-[#008109] hover:bg-[#429F00] font-bold flex flex-col justify-center items-center`}
-            onClick={() => navigateToPage("/jamdinding")}
+            onClick={() => navigateToPage("/ewallet2")}
           >
-            {/* <img src="/corkcicle.png" alt="Cash 200K" className="w-20 h-20" /> */}
-            Jam Dinding
+            <img src="/200k.png" alt="Cash 200K" className="w-20 h-20" />E
+            WALLET 2
           </button>
           <button
             className={`px-6 py-3 text-lg text-white rounded-lg transition-colors bg-[#008109] hover:bg-[#429F00] font-bold flex flex-col justify-center items-center`}
-            onClick={() => navigateToPage("/mouse")}
+            onClick={() => navigateToPage("/ewallet3")}
           >
-            {/* <img src="/corkcicle.png" alt="Cash 200K" className="w-20 h-20" /> */}
-            Mouse
-          </button>
-          <button
-            className={`px-6 py-3 text-lg text-white rounded-lg transition-colors bg-[#008109] hover:bg-[#429F00] font-bold flex flex-col justify-center items-center`}
-            onClick={() => navigateToPage("/earphone")}
-          >
-            {/* <img src="/corkcicle.png" alt="Cash 200K" className="w-20 h-20" /> */}
-            Earphone
-          </button>
-          <button
-            className={`px-6 py-3 text-lg text-white rounded-lg transition-colors bg-[#008109] hover:bg-[#429F00] font-bold flex flex-col justify-center items-center`}
-            onClick={() => navigateToPage("/kaosrunning")}
-          >
-            {/* <img src="/corkcicle.png" alt="Cash 200K" className="w-20 h-20" /> */}
-            Kaos Running
+            <img src="/100k.png" alt="Cash 200K" className="w-20 h-20" />E
+            WALLET 3
           </button>
         </div>
         <div className="mt-16">

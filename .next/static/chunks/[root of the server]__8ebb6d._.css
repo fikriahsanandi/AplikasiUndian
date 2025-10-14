@@ -431,10 +431,6 @@ img, video {
   margin-top: .75rem;
 }
 
-.mb-2 {
-  margin-bottom: .5rem;
-}
-
 .flex {
   display: flex;
 }
@@ -459,10 +455,6 @@ img, video {
   height: 100%;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
@@ -485,10 +477,6 @@ img, video {
 
 .w-full {
   width: 100%;
-}
-
-.w-16 {
-  width: 4rem;
 }
 
 .cursor-not-allowed {

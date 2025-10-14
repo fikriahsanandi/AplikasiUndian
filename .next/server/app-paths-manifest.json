@@ -1,7 +1,4 @@
 {
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/grandprize/page": "app/grandprize/page.js",
-  "/smartwatch/page": "app/smartwatch/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

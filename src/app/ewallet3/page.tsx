@@ -19,7 +19,7 @@ export default function Home() {
   useEffect(() => {
     if (typeof window !== "undefined") {
       setCounter(
-        localStorage.getItem("powerbank")
+        localStorage.getItem("ewallet3")
           ? parseInt(localStorage.getItem("ewallet3")!)
           : 100
       );
@@ -101,16 +101,16 @@ export default function Home() {
   return (
     <>
       <img
-        src="/border.png"
+        src="/border-new.png"
         alt="Border"
         className="absolute inset-0 w-full h-full pointer-events-none"
       />
-      <div className="flex flex-col items-center justify-center min-h-screen bg-[#FEDFB6]">
-        <h1 className="text-6xl font-bold mb-6 text-[#401606]">
-          Undian 2 Power Bank
+      <div className="flex flex-col items-center justify-center min-h-screen bg-[#FAEFD9]">
+        <h1 className="text-3xl font-bold mb-6 text-[#401606]">
+          Undian 30 E-Wallet 100 Ribu Rupiah
         </h1>
-        <div className="mb-10 relative">
-          <img src="/powerbank.jpg" alt="Cash 200K" className="w-60 h-60" />
+        <div className="mb-6 relative">
+          <img src="/100k.png" alt="Cash 200K" className="w-48 h-48" />
         </div>
         {!isAnimating ? (
           <div className="text-5xl font-extrabold text-gray-800 h-24 w-[300px] flex flex-col items-center justify-center border-4 border-green-700 rounded-lg bg-white shadow-lg mb-6">
@@ -142,7 +142,7 @@ export default function Home() {
           </button>
         )}
         <button
-          className={`mt-20 px-6 py-3 text-lg text-white rounded-lg transition-colors  bg-orange-500 hover:bg-orange-400`}
+          className={`mt-2 px-6 py-3 text-lg text-white rounded-lg transition-colors  bg-orange-500 hover:bg-orange-400`}
           onClick={() => router.back()}
         >
           Back To Main Menu

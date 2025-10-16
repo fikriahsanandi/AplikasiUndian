@@ -49,422 +49,728 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const participantsDataNPP = [
     {
-        "nama": "Bu Nur",
-        "number": "01",
-        "status": "NPP",
-        "one_year": true
+        nama: "Zakir Mursalin",
+        number: "01",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Bu Tiwi",
-        "number": "02",
-        "status": "NPP",
-        "one_year": true
+        nama: "Mula Vidya Kusuma",
+        number: "02",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Pak Sukmo",
-        "number": "03",
-        "status": "NPP",
-        "one_year": true
+        nama: "Daung Hadinata",
+        number: "03",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Zafran",
-        "number": "04",
-        "status": "NPP",
-        "one_year": true
+        nama: "Ginanjar Ardiansyah",
+        number: "04",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Hafidz",
-        "number": "05",
-        "status": "NPP",
-        "one_year": true
+        nama: "Liesa Avianty Sagitawaty",
+        number: "05",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Bu Wulan",
-        "number": "06",
-        "status": "NPP",
-        "one_year": true
+        nama: "Aqsha Suyudi Putra",
+        number: "06",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Pak Arif",
-        "number": "07",
-        "status": "NPP",
-        "one_year": true
+        nama: "Ade Satria Elisman",
+        number: "07",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Fathan",
-        "number": "08",
-        "status": "NPP",
-        "one_year": true
+        nama: "Wahyudi",
+        number: "08",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Aisyah",
-        "number": "09",
-        "status": "NPP",
-        "one_year": true
+        nama: "Agus Solihin",
+        number: "09",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Kenzie",
-        "number": "10",
-        "status": "NPP",
-        "one_year": true
+        nama: "Heri Iskandar",
+        number: "11",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Bu Endah",
-        "number": "11",
-        "status": "NPP",
-        "one_year": true
+        nama: "Indira Milasari",
+        number: "13",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Pak Tinton",
-        "number": "12",
-        "status": "NPP",
-        "one_year": true
+        nama: "Benny Isma Yuadi",
+        number: "15",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Sarah",
-        "number": "13",
-        "status": "NPP",
-        "one_year": true
+        nama: "Arif Nurul Wahid",
+        number: "16",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Bu Windah",
-        "number": "14",
-        "status": "NPP",
-        "one_year": true
+        nama: "Arif Fadillah",
+        number: "19",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Pak Didit",
-        "number": "15",
-        "status": "NPP",
-        "one_year": true
+        nama: "Fitri Nuraeni",
+        number: "21",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Sagara",
-        "number": "16",
-        "status": "NPP",
-        "one_year": true
+        nama: "Syarif Ahmad",
+        number: "23",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Bu Asti",
-        "number": "17",
-        "status": "NPP",
-        "one_year": true
+        nama: "Irval Mayiendra",
+        number: "24",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Pak Agung",
-        "number": "18",
-        "status": "NPP",
-        "one_year": true
+        nama: "R. Muh Iqbal Sasraningrat",
+        number: "25",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Kanza",
-        "number": "19",
-        "status": "NPP",
-        "one_year": true
+        nama: "Aleksius Petrus Bella",
+        number: "26",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Aira",
-        "number": "20",
-        "status": "NPP",
-        "one_year": true
+        nama: "Dendy Hendrafajri",
+        number: "27",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Bu Siti",
-        "number": "21",
-        "status": "NPP",
-        "one_year": true
+        nama: "Afifah Anjany",
+        number: "28",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Pak Mualif",
-        "number": "22",
-        "status": "NPP",
-        "one_year": true
+        nama: "Reza Hendrawan",
+        number: "29",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Iga",
-        "number": "23",
-        "status": "NPP",
-        "one_year": true
+        nama: "Olga Chiquita Jacob",
+        number: "30",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Bu Anggi",
-        "number": "24",
-        "status": "NPP",
-        "one_year": true
+        nama: "Hesa Alfathona",
+        number: "31",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Bu Anis",
-        "number": "25",
-        "status": "NPP",
-        "one_year": true
+        nama: "Anisa Novianti",
+        number: "32",
+        status: "NPP",
+        one_year: true
+    },
+    {
+        nama: "Luhut Pardamean Siahaan",
+        number: "34",
+        status: "NPP",
+        one_year: true
+    },
+    {
+        nama: "Duwi Ari Wibowo",
+        number: "36",
+        status: "NPP",
+        one_year: true
+    },
+    {
+        nama: "Dzaky Nurhafizh",
+        number: "37",
+        status: "NPP",
+        one_year: true
+    },
+    {
+        nama: "Andriansyah",
+        number: "38",
+        status: "NPP",
+        one_year: true
+    },
+    {
+        nama: "Iga Novianti",
+        number: "39",
+        status: "NPP",
+        one_year: true
     }
 ];
 const participantsDataNonNPP = [
     {
-        "nama": "Febrianti ",
-        "number": "01",
-        "status": "NON NPP",
-        "one_year": false
+        nama: "Akbar Nandito Prasetia",
+        number: "42",
+        status: "NON NPP",
+        one_year: true
     },
     {
-        "nama": "Akbar Nandito Prasetia ",
-        "number": "03",
-        "status": "NON NPP",
-        "one_year": false
+        nama: "Rizki Kurniawan",
+        number: "43",
+        status: "NON NPP",
+        one_year: true
     },
     {
-        "nama": "Fachry Dhany",
-        "number": "06",
-        "status": "NON NPP",
-        "one_year": true
+        nama: "Mokhamad Hijriawan",
+        number: "46",
+        status: "NON NPP",
+        one_year: true
     },
     {
-        "nama": "Muhammad Fikri Ahsanandi",
-        "number": "10",
-        "status": "NON NPP",
-        "one_year": false
+        nama: "Putri Dewi Rahma Ani",
+        number: "47",
+        status: "NON NPP",
+        one_year: true
     },
     {
-        "nama": "Sri Rahayu Utami",
-        "number": "12",
-        "status": "NON NPP",
-        "one_year": true
+        nama: "Tarri Namira Erfarda",
+        number: "49",
+        status: "NON NPP",
+        one_year: true
     },
     {
-        "nama": "Yofanny Amanda",
-        "number": "13",
-        "status": "NON NPP",
-        "one_year": true
+        nama: "Ayu Endah Pratiwi",
+        number: "50",
+        status: "NON NPP",
+        one_year: true
     },
     {
-        "nama": "Tarri Namira Erfarda",
-        "number": "15",
-        "status": "NON NPP",
-        "one_year": true
+        nama: "Sri Rahayu Utami Ningtyas",
+        number: "52",
+        status: "NON NPP",
+        one_year: true
     },
     {
-        "nama": "Irwan",
-        "number": "16",
-        "status": "NON NPP",
-        "one_year": true
+        nama: "Raszi Hanitra Prakasa",
+        number: "53",
+        status: "NON NPP",
+        one_year: true
     },
     {
-        "nama": "Shevia Zulva Salsabila",
-        "number": "20",
-        "status": "NON NPP",
-        "one_year": false
+        nama: "Yofanny Amanda",
+        number: "54",
+        status: "NON NPP",
+        one_year: true
     },
     {
-        "nama": "Hesa Alfathona",
-        "number": "32",
-        "status": "NON NPP",
-        "one_year": true
+        nama: "Angga Saputra",
+        number: "55",
+        status: "NON NPP",
+        one_year: true
     },
     {
-        "nama": "Mokhamad Hijriawan",
-        "number": "34",
-        "status": "NON NPP",
-        "one_year": true
+        nama: "Muhammad Fikri Ahsanandi",
+        number: "56",
+        status: "NON NPP",
+        one_year: true
     },
     {
-        "nama": "Muhammad Syah Fadhel",
-        "number": "35",
-        "status": "NON NPP",
-        "one_year": false
+        nama: "Siti Niken Rahmi Maulida",
+        number: "57",
+        status: "NON NPP",
+        one_year: true
     },
     {
-        "nama": "Raszi Hanitra",
-        "number": "37",
-        "status": "NON NPP",
-        "one_year": true
+        nama: "Heru Katanda",
+        number: "58",
+        status: "NON NPP",
+        one_year: true
     },
     {
-        "nama": "Ayu Endah Pratiwi",
-        "number": "41",
-        "status": "NON NPP",
-        "one_year": true
+        nama: "Shevia Zulfa Salsabila",
+        number: "59",
+        status: "NON NPP",
+        one_year: true
     },
     {
-        "nama": "Irfan",
-        "number": "46",
-        "status": "NON NPP",
-        "one_year": false
+        nama: "Muhammad Syah Fadel",
+        number: "60",
+        status: "NON NPP",
+        one_year: true
     },
     {
-        "nama": "Ivan Fabriano Syahputra",
-        "number": "48",
-        "status": "NON NPP",
-        "one_year": true
+        nama: "Muhammad Alfatian",
+        number: "61",
+        status: "NON NPP",
+        one_year: true
     },
     {
-        "nama": "Muhammad Alfatian",
-        "number": "50",
-        "status": "NON NPP",
-        "one_year": false
+        nama: "Rifki Rizqullah Zamar",
+        number: "67",
+        status: "NON NPP",
+        one_year: true
     },
     {
-        "nama": "Siti Niken Rahmi Maulida",
-        "number": "54",
-        "status": "NON NPP",
-        "one_year": false
+        nama: "Wisnu Hanifanto",
+        number: "68",
+        status: "NON NPP",
+        one_year: true
     },
     {
-        "nama": "Nanang",
-        "number": "56",
-        "status": "NON NPP",
-        "one_year": true
+        nama: "Sulityo Basuki",
+        number: "70",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Siti Istiqomah",
+        number: "71",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Ifang Firman Elangsyah",
+        number: "72",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Tarifa Fibula Falani",
+        number: "73",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Rasyid Ihsan Putra Selian",
+        number: "74",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Intan Halimatus Sadiyah",
+        number: "75",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Nanang",
+        number: "76",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Irwan",
+        number: "77",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Nurzaman",
+        number: "78",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Jupri",
+        number: "79",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Adit",
+        number: "80",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Irvan",
+        number: "81",
+        status: "NON NPP",
+        one_year: true
     }
 ];
 const participantsData = [
     {
-        "nama": "Bu Nur",
-        "number": "01",
-        "status": "NPP",
-        "one_year": true
+        nama: "Zakir Mursalin",
+        number: "01",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Bu Tiwi",
-        "number": "02",
-        "status": "NPP",
-        "one_year": true
+        nama: "Mula Vidya Kusuma",
+        number: "02",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Pak Sukmo",
-        "number": "03",
-        "status": "NPP",
-        "one_year": true
+        nama: "Daung Hadinata",
+        number: "03",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Zafran",
-        "number": "04",
-        "status": "NPP",
-        "one_year": true
+        nama: "Ginanjar Ardiansyah",
+        number: "04",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Hafidz",
-        "number": "05",
-        "status": "NPP",
-        "one_year": true
+        nama: "Liesa Avianty Sagitawaty",
+        number: "05",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Bu Wulan",
-        "number": "06",
-        "status": "NPP",
-        "one_year": true
+        nama: "Aqsha Suyudi Putra",
+        number: "06",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Pak Arif",
-        "number": "07",
-        "status": "NPP",
-        "one_year": true
+        nama: "Ade Satria Elisman",
+        number: "07",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Fathan",
-        "number": "08",
-        "status": "NPP",
-        "one_year": true
+        nama: "Wahyudi",
+        number: "08",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Aisyah",
-        "number": "09",
-        "status": "NPP",
-        "one_year": true
+        nama: "Agus Solihin",
+        number: "09",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Kenzie",
-        "number": "10",
-        "status": "NPP",
-        "one_year": true
+        nama: "Heri Iskandar",
+        number: "11",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Bu Endah",
-        "number": "11",
-        "status": "NPP",
-        "one_year": true
+        nama: "Indira Milasari",
+        number: "13",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Pak Tinton",
-        "number": "12",
-        "status": "NPP",
-        "one_year": true
+        nama: "Benny Isma Yuadi",
+        number: "15",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Sarah",
-        "number": "13",
-        "status": "NPP",
-        "one_year": true
+        nama: "Arif Nurul Wahid",
+        number: "16",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Bu Windah",
-        "number": "14",
-        "status": "NPP",
-        "one_year": true
+        nama: "Arif Fadillah",
+        number: "19",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Pak Didit",
-        "number": "15",
-        "status": "NPP",
-        "one_year": true
+        nama: "Fitri Nuraeni",
+        number: "21",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Sagara",
-        "number": "16",
-        "status": "NPP",
-        "one_year": true
+        nama: "Syarif Ahmad",
+        number: "23",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Bu Asti",
-        "number": "17",
-        "status": "NPP",
-        "one_year": true
+        nama: "Irval Mayiendra",
+        number: "24",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Pak Agung",
-        "number": "18",
-        "status": "NPP",
-        "one_year": true
+        nama: "R. Muh Iqbal Sasraningrat",
+        number: "25",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Kanza",
-        "number": "19",
-        "status": "NPP",
-        "one_year": true
+        nama: "Aleksius Petrus Bella",
+        number: "26",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Aira",
-        "number": "20",
-        "status": "NPP",
-        "one_year": true
+        nama: "Dendy Hendrafajri",
+        number: "27",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Bu Siti",
-        "number": "21",
-        "status": "NPP",
-        "one_year": true
+        nama: "Afifah Anjany",
+        number: "28",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Pak Mualif",
-        "number": "22",
-        "status": "NPP",
-        "one_year": true
+        nama: "Reza Hendrawan",
+        number: "29",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Iga",
-        "number": "23",
-        "status": "NPP",
-        "one_year": true
+        nama: "Olga Chiquita Jacob",
+        number: "30",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Bu Anggi",
-        "number": "24",
-        "status": "NPP",
-        "one_year": true
+        nama: "Hesa Alfathona",
+        number: "31",
+        status: "NPP",
+        one_year: true
     },
     {
-        "nama": "Bu Anis",
-        "number": "25",
-        "status": "NPP",
-        "one_year": true
+        nama: "Anisa Novianti",
+        number: "32",
+        status: "NPP",
+        one_year: true
+    },
+    {
+        nama: "Luhut Pardamean Siahaan",
+        number: "34",
+        status: "NPP",
+        one_year: true
+    },
+    {
+        nama: "Duwi Ari Wibowo",
+        number: "36",
+        status: "NPP",
+        one_year: true
+    },
+    {
+        nama: "Dzaky Nurhafizh",
+        number: "37",
+        status: "NPP",
+        one_year: true
+    },
+    {
+        nama: "Andriansyah",
+        number: "38",
+        status: "NPP",
+        one_year: true
+    },
+    {
+        nama: "Iga Novianti",
+        number: "39",
+        status: "NPP",
+        one_year: true
+    },
+    {
+        nama: "Akbar Nandito Prasetia",
+        number: "42",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Rizki Kurniawan",
+        number: "43",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Mokhamad Hijriawan",
+        number: "46",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Putri Dewi Rahma Ani",
+        number: "47",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Tarri Namira Erfarda",
+        number: "49",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Ayu Endah Pratiwi",
+        number: "50",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Sri Rahayu Utami Ningtyas",
+        number: "52",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Raszi Hanitra Prakasa",
+        number: "53",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Yofanny Amanda",
+        number: "54",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Angga Saputra",
+        number: "55",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Muhammad Fikri Ahsanandi",
+        number: "56",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Siti Niken Rahmi Maulida",
+        number: "57",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Heru Katanda",
+        number: "58",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Shevia Zulfa Salsabila",
+        number: "59",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Muhammad Syah Fadel",
+        number: "60",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Muhammad Alfatian",
+        number: "61",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Rifki Rizqullah Zamar",
+        number: "67",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Wisnu Hanifanto",
+        number: "68",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Sulityo Basuki",
+        number: "70",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Siti Istiqomah",
+        number: "71",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Ifang Firman Elangsyah",
+        number: "72",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Tarifa Fibula Falani",
+        number: "73",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Rasyid Ihsan Putra Selian",
+        number: "74",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Intan Halimatus Sadiyah",
+        number: "75",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Nanang",
+        number: "76",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Irwan",
+        number: "77",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Nurzaman",
+        number: "78",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Jupri",
+        number: "79",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Adit",
+        number: "80",
+        status: "NON NPP",
+        one_year: true
+    },
+    {
+        nama: "Irvan",
+        number: "81",
+        status: "NON NPP",
+        one_year: true
     }
 ];
 function Home() {
@@ -478,7 +784,7 @@ function Home() {
         const storedParticipants = localStorage.getItem("participants");
         const storedParticipantsNPP = localStorage.getItem("participantsNPP");
         const storedParticipantsNonNPP = localStorage.getItem("participantsNonNPP");
-        setParticipants(storedParticipants ? JSON.parse(storedParticipants) : participantsDataNPP.concat(participantsDataNonNPP));
+        setParticipants(storedParticipants ? JSON.parse(storedParticipants) : participantsData);
         setParticipantsNPP(storedParticipantsNPP ? JSON.parse(storedParticipantsNPP) : participantsDataNPP);
         setParticipantsNonNPP(storedParticipantsNonNPP ? JSON.parse(storedParticipantsNonNPP) : participantsDataNonNPP);
         localStorage.setItem("participants", JSON.stringify(participantsDataNPP.concat(participantsDataNonNPP)));
@@ -492,25 +798,17 @@ function Home() {
         className: "bg-black",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                src: "/border.png",
+                src: "/border-new.png",
                 alt: "Border",
                 className: "absolute inset-0 w-full h-full pointer-events-none"
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 461,
+                lineNumber: 397,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex flex-col items-center justify-center min-h-screen bg-[#FEDFB6]",
+                className: "flex flex-col items-center justify-center min-h-screen bg-[#FAEFD9]",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "text-6xl font-bold mb-6 text-[#401606]",
-                        children: "Undian Gathering SBU HMPM 2025"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 467,
-                        columnNumber: 9
-                    }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex gap-2 mt-3",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -523,19 +821,19 @@ function Home() {
                                     className: "w-32 h-32"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/page.tsx",
-                                    lineNumber: 473,
+                                    lineNumber: 408,
                                     columnNumber: 13
                                 }, this),
                                 "GRAND PRIZE"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 469,
+                            lineNumber: 404,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 468,
+                        lineNumber: 403,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -551,14 +849,14 @@ function Home() {
                                         className: "w-20 h-20"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.tsx",
-                                        lineNumber: 482,
+                                        lineNumber: 417,
                                         columnNumber: 13
                                     }, this),
                                     "SMARTWATCH"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/page.tsx",
-                                lineNumber: 478,
+                                lineNumber: 413,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -571,14 +869,14 @@ function Home() {
                                         className: "w-20 h-20"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.tsx",
-                                        lineNumber: 489,
+                                        lineNumber: 424,
                                         columnNumber: 13
                                     }, this),
                                     "TUMBLER"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/page.tsx",
-                                lineNumber: 485,
+                                lineNumber: 420,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -591,20 +889,20 @@ function Home() {
                                         className: "w-20 h-20"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.tsx",
-                                        lineNumber: 496,
+                                        lineNumber: 431,
                                         columnNumber: 13
                                     }, this),
                                     "SPEAKER"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/page.tsx",
-                                lineNumber: 492,
+                                lineNumber: 427,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 477,
+                        lineNumber: 412,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -620,14 +918,14 @@ function Home() {
                                         className: "w-20 h-20"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.tsx",
-                                        lineNumber: 505,
+                                        lineNumber: 440,
                                         columnNumber: 13
                                     }, this),
                                     "E WALLET 1"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/page.tsx",
-                                lineNumber: 501,
+                                lineNumber: 436,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -640,14 +938,14 @@ function Home() {
                                         className: "w-20 h-20"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.tsx",
-                                        lineNumber: 512,
+                                        lineNumber: 447,
                                         columnNumber: 13
                                     }, this),
                                     "E WALLET 2"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/page.tsx",
-                                lineNumber: 508,
+                                lineNumber: 443,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -660,50 +958,50 @@ function Home() {
                                         className: "w-20 h-20"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.tsx",
-                                        lineNumber: 519,
+                                        lineNumber: 454,
                                         columnNumber: 13
                                     }, this),
                                     "E WALLET 3"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/page.tsx",
-                                lineNumber: 515,
+                                lineNumber: 450,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 500,
+                        lineNumber: 435,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-16",
+                        className: "mt-4",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             className: `px-6 py-3 text-lg text-white rounded-lg transition-colors bg-orange-500 hover:bg-orange-400 font-bold flex flex-col justify-center items-center`,
                             onClick: ()=>{
                                 localStorage.clear();
                             },
-                            children: "Reset"
+                            children: "Reset Game"
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 524,
+                            lineNumber: 459,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 523,
+                        lineNumber: 458,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 466,
+                lineNumber: 402,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/page.tsx",
-        lineNumber: 460,
+        lineNumber: 396,
         columnNumber: 5
     }, this);
 }

@@ -455,14 +455,14 @@ export default function Home() {
             WALLET 3
           </button>
         </div>
-        <div className="mt-16">
+        <div className="mt-4">
           <button
             className={`px-6 py-3 text-lg text-white rounded-lg transition-colors bg-orange-500 hover:bg-orange-400 font-bold flex flex-col justify-center items-center`}
             onClick={() => {
               localStorage.clear();
             }}
           >
-            Reset
+            Reset Game
           </button>
         </div>
       </div>

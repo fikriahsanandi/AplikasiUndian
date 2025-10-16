@@ -411,8 +411,24 @@ img, video {
   inset: 0;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mb-6 {
@@ -431,20 +447,52 @@ img, video {
   margin-top: .75rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.mb-14 {
+  margin-bottom: 3.5rem;
 }
 
 .mb-1 {
   margin-bottom: .25rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-28 {
+  margin-top: 7rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .h-12 {
@@ -463,6 +511,10 @@ img, video {
   height: 7rem;
 }
 
+.h-48 {
+  height: 12rem;
+}
+
 .h-60 {
   height: 15rem;
 }
@@ -471,8 +523,8 @@ img, video {
   height: 100%;
 }
 
-.h-56 {
-  height: 14rem;
+.h-32 {
+  height: 8rem;
 }
 
 .min-h-screen {
@@ -491,6 +543,10 @@ img, video {
   width: 7rem;
 }
 
+.w-48 {
+  width: 12rem;
+}
+
 .w-60 {
   width: 15rem;
 }
@@ -503,12 +559,20 @@ img, video {
   width: 100%;
 }
 
-.w-56 {
-  width: 14rem;
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-\[250px\] {
+  width: 250px;
 }
 
 .cursor-not-allowed {
   cursor: not-allowed;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -525,6 +589,10 @@ img, video {
 
 .gap-2 {
   gap: .5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .rounded-lg {
@@ -604,6 +672,15 @@ img, video {
   padding-bottom: .75rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -617,6 +694,11 @@ img, video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -672,6 +754,12 @@ body {
 .hover\:bg-orange-400:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(251 146 60 / var(--tw-bg-opacity, 1));
+}
+
+@media (width >= 768px) {
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 

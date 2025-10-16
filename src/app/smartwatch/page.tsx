@@ -89,14 +89,16 @@ export default function Home() {
     return (
         <>
             <img
-                src="/border.png"
+                src="/border-new.png"
                 alt="Border"
-                className="absolute inset-0 w-full h-full pointer-events-none"
+                className="absolute inset-0 w-full h-full pointer-events-none z-0"
             />
-            <div className="flex flex-col items-center justify-center min-h-screen bg-[#FEDFB6]">
-                <h1 className="text-6xl font-bold mb-6 text-[#401606]">Undian 2 Unit Blanket</h1>
-                <div className="mb-10 relative">
-                    <img src="/blanket.jpg" alt="Cash 200K" className="w-60 h-60" />
+            <div className="flex flex-col items-center justify-center min-h-screen bg-[#FAEFD9]">
+                <h1 className="text-4xl font-bold mt-28 mb-4 text-[#401606]">
+                    Undian 3 Buah Smartwatch
+                </h1>
+                <div className="mb-6 relative">
+                    <img src="/smartwatch.png" alt="Smartwatch" className="w-60 h-60" />
                 </div>
                 {!isAnimating ?
                     <div className="text-5xl font-extrabold text-gray-800 h-24 w-[300px] flex flex-col items-center justify-center border-4 border-green-700 rounded-lg bg-white shadow-lg mb-6">
@@ -121,7 +123,7 @@ export default function Home() {
                     </button>
                 }
                 <button
-                    className={`mt-20 px-6 py-3 text-lg text-white rounded-lg transition-colors  bg-orange-500 hover:bg-orange-400`}
+                    className={`mt-20 px-6 py-3 text-lg text-white rounded-lg transition-colors  bg-orange-500 hover:bg-orange-400 z-20`}
                     onClick={() => router.back()}
                 >
                     Back To Main Menu
@@ -130,5 +132,3 @@ export default function Home() {
         </>
     );
 }
-
-

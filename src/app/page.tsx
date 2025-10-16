@@ -397,10 +397,10 @@ export default function Home() {
       <img
         src="/border-new.png"
         alt="Border"
-        className="absolute inset-0 w-full h-full pointer-events-none"
+        className="absolute inset-0 w-full h-full pointer-events-none z-0"
       />
       <div className="flex flex-col items-center justify-center min-h-screen bg-[#FAEFD9]">
-        <div className="flex gap-2 mt-2">
+        <div className="flex gap-2 mt-20">
           <button
             className={`px-6 py-3 text-lg text-white rounded-lg transition-colors bg-[#008109] hover:bg-[#429F00] font-bold flex flex-col justify-center items-center`}
             onClick={() => navigateToPage("/grandprize")}
@@ -455,14 +455,14 @@ export default function Home() {
             E WALLET 3
           </button>
         </div>
-        <div className="mt-5">
+        <div className="mt-20 z-20">
           <button
             className={`px-4 py-2 text-lg text-white rounded-lg transition-colors bg-orange-500 hover:bg-orange-400 font-bold flex flex-col justify-center items-center`}
             onClick={() => {
               localStorage.clear();
             }}
           >
-            Reset
+            Reset Game
           </button>
         </div>
       </div>

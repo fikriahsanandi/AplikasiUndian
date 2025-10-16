@@ -112,36 +112,37 @@ function Home() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                 src: "/border-new.png",
                 alt: "Border",
-                className: "absolute inset-0 w-full h-full pointer-events-none"
+                className: "absolute inset-0 w-full h-full pointer-events-none z-0"
             }, void 0, false, {
                 fileName: "[project]/src/app/grandprize/page.tsx",
                 lineNumber: 98,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex flex-col items-center justify-center min-h-screen bg-[#FEDFB6]",
+                className: "flex flex-col items-center justify-center min-h-screen bg-[#FAEFD9]",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "text-6xl font-bold mb-6 text-[#401606]"
+                        className: "text-4xl font-bold mt-28 mb-4 text-[#401606]",
+                        children: "Undian Grand Prize"
                     }, void 0, false, {
                         fileName: "[project]/src/app/grandprize/page.tsx",
                         lineNumber: 104,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mb-4 relative",
+                        className: "mb-6 relative",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                             src: "/smarttv.png",
-                            alt: "Cash 200K",
+                            alt: "Grand Prize",
                             className: "w-60 h-60"
                         }, void 0, false, {
                             fileName: "[project]/src/app/grandprize/page.tsx",
-                            lineNumber: 106,
+                            lineNumber: 108,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/grandprize/page.tsx",
-                        lineNumber: 105,
+                        lineNumber: 107,
                         columnNumber: 17
                     }, this),
                     !isAnimating ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -153,13 +154,13 @@ function Home() {
                                 children: currentParticipant?.nama
                             }, void 0, false, {
                                 fileName: "[project]/src/app/grandprize/page.tsx",
-                                lineNumber: 111,
+                                lineNumber: 113,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/grandprize/page.tsx",
-                        lineNumber: 109,
+                        lineNumber: 111,
                         columnNumber: 21
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "text-5xl font-extrabold text-gray-800 h-24 w-[300px] flex flex-col items-center justify-center border-4 border-red-700 rounded-lg bg-white shadow-lg mb-6",
@@ -170,13 +171,13 @@ function Home() {
                                 children: currentParticipantDummy?.nama
                             }, void 0, false, {
                                 fileName: "[project]/src/app/grandprize/page.tsx",
-                                lineNumber: 115,
+                                lineNumber: 117,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/grandprize/page.tsx",
-                        lineNumber: 113,
+                        lineNumber: 115,
                         columnNumber: 21
                     }, this),
                     tunaiCounter > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -189,16 +190,16 @@ function Home() {
                         children: isAnimating ? "Mengundi..." : "Mulai Undian"
                     }, void 0, false, {
                         fileName: "[project]/src/app/grandprize/page.tsx",
-                        lineNumber: 119,
+                        lineNumber: 121,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        className: `mt-20 px-6 py-3 text-lg text-white rounded-lg transition-colors  bg-orange-500 hover:bg-orange-400`,
+                        className: `mt-20 px-6 py-3 text-lg text-white rounded-lg transition-colors bg-orange-500 hover:bg-orange-400 z-20`,
                         onClick: ()=>router.back(),
                         children: "Back To Main Menu"
                     }, void 0, false, {
                         fileName: "[project]/src/app/grandprize/page.tsx",
-                        lineNumber: 130,
+                        lineNumber: 132,
                         columnNumber: 17
                     }, this)
                 ]

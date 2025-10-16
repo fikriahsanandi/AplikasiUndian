@@ -103,39 +103,39 @@ function Home() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                src: "/border.png",
+                src: "/border-new.png",
                 alt: "Border",
-                className: "absolute inset-0 w-full h-full pointer-events-none"
+                className: "absolute inset-0 w-full h-full pointer-events-none z-0"
             }, void 0, false, {
                 fileName: "[project]/src/app/smartwatch/page.tsx",
                 lineNumber: 91,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex flex-col items-center justify-center min-h-screen bg-[#FEDFB6]",
+                className: "flex flex-col items-center justify-center min-h-screen bg-[#FAEFD9]",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "text-6xl font-bold mb-6 text-[#401606]",
-                        children: "Undian 2 Unit Blanket"
+                        className: "text-4xl font-bold mt-28 mb-4 text-[#401606]",
+                        children: "Undian 3 Buah Smartwatch"
                     }, void 0, false, {
                         fileName: "[project]/src/app/smartwatch/page.tsx",
                         lineNumber: 97,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mb-10 relative",
+                        className: "mb-6 relative",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                            src: "/blanket.jpg",
-                            alt: "Cash 200K",
+                            src: "/smartwatch.png",
+                            alt: "Smartwatch",
                             className: "w-60 h-60"
                         }, void 0, false, {
                             fileName: "[project]/src/app/smartwatch/page.tsx",
-                            lineNumber: 99,
+                            lineNumber: 101,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/smartwatch/page.tsx",
-                        lineNumber: 98,
+                        lineNumber: 100,
                         columnNumber: 17
                     }, this),
                     !isAnimating ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -147,13 +147,13 @@ function Home() {
                                 children: currentParticipant?.nama
                             }, void 0, false, {
                                 fileName: "[project]/src/app/smartwatch/page.tsx",
-                                lineNumber: 104,
+                                lineNumber: 106,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/smartwatch/page.tsx",
-                        lineNumber: 102,
+                        lineNumber: 104,
                         columnNumber: 21
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "text-5xl font-extrabold text-gray-800 h-24 w-[300px] flex flex-col items-center justify-center border-4 border-red-700 rounded-lg bg-white shadow-lg mb-6",
@@ -164,13 +164,13 @@ function Home() {
                                 children: currentParticipantDummy?.nama
                             }, void 0, false, {
                                 fileName: "[project]/src/app/smartwatch/page.tsx",
-                                lineNumber: 108,
+                                lineNumber: 110,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/smartwatch/page.tsx",
-                        lineNumber: 106,
+                        lineNumber: 108,
                         columnNumber: 21
                     }, this),
                     tunaiCounter > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -183,16 +183,16 @@ function Home() {
                         children: isAnimating ? "Mengundi..." : "Mulai Undian"
                     }, void 0, false, {
                         fileName: "[project]/src/app/smartwatch/page.tsx",
-                        lineNumber: 112,
+                        lineNumber: 114,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        className: `mt-20 px-6 py-3 text-lg text-white rounded-lg transition-colors  bg-orange-500 hover:bg-orange-400`,
+                        className: `mt-20 px-6 py-3 text-lg text-white rounded-lg transition-colors  bg-orange-500 hover:bg-orange-400 z-20`,
                         onClick: ()=>router.back(),
                         children: "Back To Main Menu"
                     }, void 0, false, {
                         fileName: "[project]/src/app/smartwatch/page.tsx",
-                        lineNumber: 123,
+                        lineNumber: 125,
                         columnNumber: 17
                     }, this)
                 ]

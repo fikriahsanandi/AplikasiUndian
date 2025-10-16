@@ -400,12 +400,12 @@ export default function Home() {
         className="absolute inset-0 w-full h-full pointer-events-none"
       />
       <div className="flex flex-col items-center justify-center min-h-screen bg-[#FAEFD9]">
-        <div className="flex gap-2 mt-3">
+        <div className="flex gap-2 mt-2">
           <button
             className={`px-6 py-3 text-lg text-white rounded-lg transition-colors bg-[#008109] hover:bg-[#429F00] font-bold flex flex-col justify-center items-center`}
             onClick={() => navigateToPage("/grandprize")}
           >
-            <img src="/smarttv.png" alt="Cash 200K" className="w-32 h-32" />
+            <img src="/smarttv.png" alt="Smart TV" className="w-28 h-28" />
             GRAND PRIZE
           </button>
         </div>
@@ -437,27 +437,27 @@ export default function Home() {
             className={`px-6 py-3 text-lg text-white rounded-lg transition-colors bg-[#008109] hover:bg-[#429F00] font-bold flex flex-col justify-center items-center`}
             onClick={() => navigateToPage("/ewallet1")}
           >
-            <img src="/250k.png" alt="Cash 200K" className="w-20 h-20" />E
-            WALLET 1
+            <img src="/250k.png" alt="Cash 200K" className="w-12 h-12" />
+            E WALLET 1
           </button>
           <button
             className={`px-6 py-3 text-lg text-white rounded-lg transition-colors bg-[#008109] hover:bg-[#429F00] font-bold flex flex-col justify-center items-center`}
             onClick={() => navigateToPage("/ewallet2")}
           >
-            <img src="/200k.png" alt="Cash 200K" className="w-20 h-20" />E
-            WALLET 2
+            <img src="/200k.png" alt="Cash 200K" className="w-12 h-12" />
+            E WALLET 2
           </button>
           <button
             className={`px-6 py-3 text-lg text-white rounded-lg transition-colors bg-[#008109] hover:bg-[#429F00] font-bold flex flex-col justify-center items-center`}
             onClick={() => navigateToPage("/ewallet3")}
           >
-            <img src="/100k.png" alt="Cash 200K" className="w-20 h-20" />E
-            WALLET 3
+            <img src="/100k.png" alt="Cash 200K" className="w-12 h-12" />
+            E WALLET 3
           </button>
         </div>
-        <div className="mt-16">
+        <div className="mt-5">
           <button
-            className={`px-6 py-3 text-lg text-white rounded-lg transition-colors bg-orange-500 hover:bg-orange-400 font-bold flex flex-col justify-center items-center`}
+            className={`px-4 py-2 text-lg text-white rounded-lg transition-colors bg-orange-500 hover:bg-orange-400 font-bold flex flex-col justify-center items-center`}
             onClick={() => {
               localStorage.clear();
             }}

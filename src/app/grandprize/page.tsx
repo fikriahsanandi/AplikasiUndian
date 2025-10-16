@@ -96,14 +96,14 @@ export default function Home() {
     return (
         <>
             <img
-                src="/border.png"
+                src="/border-new.png"
                 alt="Border"
                 className="absolute inset-0 w-full h-full pointer-events-none"
             />
             <div className="flex flex-col items-center justify-center min-h-screen bg-[#FEDFB6]">
-                <h1 className="text-6xl font-bold mb-6 text-[#401606]">Undian 1 Unit Blender Portable</h1>
-                <div className="mb-10 relative">
-                    <img src="/blender.jpg" alt="Cash 200K" className="w-60 h-60" />
+                <h1 className="text-6xl font-bold mb-6 text-[#401606]"></h1>
+                <div className="mb-4 relative">
+                    <img src="/smarttv.png" alt="Cash 200K" className="w-60 h-60" />
                 </div>
                 {!isAnimating ?
                     <div className="text-5xl font-extrabold text-gray-800 h-24 w-[300px] flex flex-col items-center justify-center border-4 border-green-700 rounded-lg bg-white shadow-lg mb-6">

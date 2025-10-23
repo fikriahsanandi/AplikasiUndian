@@ -6,7 +6,7 @@ import confetti from "canvas-confetti";
 
 export default function Home() {
   const router = useRouter();
-  const [currentParticipant, setCurrentParticipant]: any = useState(null);
+  const [currentParticipant, setCurrentParticipant]: any = useState([]);
   const [currentParticipantDummy, setCurrentParticipantDummy]: any =
     useState(null);
   const [isAnimating, setIsAnimating] = useState(false);
@@ -15,6 +15,9 @@ export default function Home() {
   const [participantsDummy, setParticipantsDummy]: any = useState([]);
   const [audio, setAudio]: any = useState(null);
   const [confettiAudio, setConfettiAudio]: any = useState(null);
+  const [winners, setWinners]: any = useState(
+    JSON.parse(localStorage.getItem("winnersEwallet3") || "[]")
+  );
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -29,6 +32,7 @@ export default function Home() {
       setParticipantsDummy(
         JSON.parse(localStorage.getItem("participants") || "[]")
       );
+      setWinners(JSON.parse(localStorage.getItem("winnersEwallet3") || "[]"));
 
       setAudio(new Audio("/efek_undian.mp3"));
       setConfettiAudio(new Audio("/efek_confetti.mp3"));
@@ -48,54 +52,83 @@ export default function Home() {
   const startRandomizer = () => {
     audio.play();
     setIsAnimating(true);
-    let counter = 0;
-    const totalIterations = 1000;
-    const intervalTime = 5;
     let choosenIndex = 0;
+    let winners: any[] = [];
 
-    const interval = setInterval(() => {
-      choosenIndex = Math.floor(Math.random() * participants.length);
-      setCurrentParticipant(participants[choosenIndex]);
-      counter++;
+    const totalWinners = 30;
+    const totalIterations = 10;
+    const intervalTime = 2;
 
-      if (counter > totalIterations * 0.8) {
-        clearInterval(interval);
-        const slowInterval = setInterval(() => {
-          choosenIndex = Math.floor(Math.random() * participants.length);
-          setCurrentParticipant(participants[choosenIndex]);
-          counter++;
-          if (counter >= totalIterations) {
-            clearInterval(slowInterval);
-            setIsAnimating(false);
-            participants.splice(choosenIndex, 1);
-            localStorage.setItem(
-              "participantsNPP",
-              JSON.stringify(participants)
-            );
-            audio.pause();
-            audio.currentTime = 0;
+    const pickOne = () => {
+      let counter = 0;
 
-            confettiAudio.play();
-            setTimeout(() => {
-              confettiAudio.pause();
-              confettiAudio.currentTime = 0;
-            }, 5000);
+      const interval = setInterval(() => {
+        choosenIndex = Math.floor(Math.random() * participants.length);
+        setCurrentParticipant(participants[choosenIndex]);
+        counter++;
 
-            confetti({
-              particleCount: 300,
-              spread: 120,
-              startVelocity: 50,
-              ticks: 200,
-              origin: { y: 0.6 },
-              colors: ["#ff0000", "#00ff00", "#0000ff", "#ffff00", "#ff00ff"],
-            });
-          }
-        }, intervalTime * 2);
-      }
-    }, intervalTime);
+        if (counter > totalIterations * 0.8) {
+          clearInterval(interval);
 
-    setCounter((prevCounter: any) => prevCounter - 1);
-    localStorage.setItem("ewallet3", (tunaiCounter - 1).toString());
+          const slowInterval = setInterval(() => {
+            choosenIndex = Math.floor(Math.random() * participants.length);
+            setCurrentParticipant(participants[choosenIndex]);
+            counter++;
+
+            if (counter >= totalIterations) {
+              clearInterval(slowInterval);
+
+              // Simpan pemenang
+              const winner = participants[choosenIndex];
+              setWinners((prev: any) => [...prev, winner]);
+
+              winners.push(winner);
+
+              // Hapus dari peserta
+              participants.splice(choosenIndex, 1);
+              localStorage.setItem(
+                "participantsNPP",
+                JSON.stringify(participants)
+              );
+
+              // Efek animasi
+              confetti({
+                particleCount: 300,
+                spread: 120,
+                startVelocity: 50,
+                ticks: 200,
+                origin: { y: 0.6 },
+                colors: ["#ff0000", "#00ff00", "#0000ff", "#ffff00", "#ff00ff"],
+              });
+
+              // Cek apakah sudah 30 orang
+              if (winners.length < totalWinners && participants.length > 0) {
+                setTimeout(() => {
+                  pickOne(); // lanjut ke sesi randomizer berikutnya
+                }, 500); // jeda antar pemenang
+              } else {
+                setIsAnimating(false);
+                audio.pause();
+                audio.currentTime = 0;
+                confettiAudio.play();
+                setTimeout(() => {
+                  confettiAudio.pause();
+                  confettiAudio.currentTime = 0;
+                }, 5000);
+
+                // Simpan semua pemenang
+                localStorage.setItem(
+                  "winnersEwallet3",
+                  JSON.stringify(winners)
+                );
+              }
+            }
+          }, intervalTime * 2);
+        }
+      }, intervalTime);
+    };
+
+    pickOne(); // mulai sesi pertama
   };
 
   return (
@@ -113,10 +146,7 @@ export default function Home() {
           <img src="/100k.png" alt="Cash 200K" className="w-48 h-48" />
         </div>
         {!isAnimating ? (
-          <div className="text-5xl font-extrabold text-gray-800 h-24 w-[300px] flex flex-col items-center justify-center border-4 border-green-700 rounded-lg bg-white shadow-lg mb-6">
-            {currentParticipant !== null ? currentParticipant?.number : "?"}
-            <div className="text-lg">{currentParticipant?.nama}</div>
-          </div>
+          <div className="text-5xl font-extrabold text-gray-800 h-24 w-[300px] flex flex-col items-center justify-center border-4 border-green-700 rounded-lg bg-white shadow-lg mb-6"></div>
         ) : (
           <div className="text-5xl font-extrabold text-gray-800 h-24 w-[300px] flex flex-col items-center justify-center border-4 border-red-700 rounded-lg bg-white shadow-lg mb-6">
             {currentParticipantDummy !== null
@@ -125,6 +155,20 @@ export default function Home() {
             <div className="text-lg">{currentParticipantDummy?.nama}</div>
           </div>
         )}
+        <div className="w-[63%] flex gap-2 flex-wrap justify-center mb-6">
+          {winners.length > 0 &&
+            winners.map((w: any, idx: any) => {
+              return (
+                <div
+                  key={idx}
+                  className="bg-[#008109] text-white py-1 px-2 rounded-lg font-semibold"
+                >
+                  {w?.nama}
+                </div>
+              );
+            })}
+        </div>
+
         {tunaiCounter > 0 && (
           <button
             className={`px-6 py-3 text-lg text-white rounded-lg transition-colors ${
@@ -141,8 +185,9 @@ export default function Home() {
             {isAnimating ? "Mengundi..." : "Mulai Undian"}
           </button>
         )}
+
         <button
-          className={`mt-2 px-6 py-3 text-lg text-white rounded-lg transition-colors  bg-orange-500 hover:bg-orange-400`}
+          className={`mt-2 px-6 py-3 text-lg text-white rounded-lg transition-colors  bg-orange-500 hover:bg-orange-400 z-[100]`}
           onClick={() => router.back()}
         >
           Back To Main Menu

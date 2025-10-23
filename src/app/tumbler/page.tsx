@@ -17,7 +17,7 @@ export default function Home() {
 
     useEffect(() => {
         if (typeof window !== "undefined") {
-            setCounter(localStorage.getItem("earphone") ? parseInt(localStorage.getItem("earphone")!) : 100);
+            setCounter(localStorage.getItem("tumbler") ? parseInt(localStorage.getItem("tumbler")!) : 100);
             setParticipants(JSON.parse(localStorage.getItem("participantsNPP") || "[]"));
             setParticipantsDummy(JSON.parse(localStorage.getItem("participants") || "[]"));
 
@@ -85,7 +85,7 @@ export default function Home() {
         }, intervalTime);
 
         setCounter((prevCounter: any) => prevCounter - 1);
-        localStorage.setItem("earphone", (tunaiCounter - 1).toString());
+        localStorage.setItem("tumbler", (tunaiCounter - 1).toString());
     }
 
     return (
@@ -125,7 +125,7 @@ export default function Home() {
                     </button>
                 }
                 <button
-                    className={`mt-20 px-6 py-3 text-lg text-white rounded-lg transition-colors  bg-orange-500 hover:bg-orange-400 z-20`}
+                    className={`mt-20 px-6 py-3 text-lg text-white rounded-lg transition-colors bg-orange-500 hover:bg-orange-400 z-20`}
                     onClick={() => router.back()}
                 >
                     Back To Main Menu

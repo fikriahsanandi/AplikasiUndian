@@ -1,12 +1,6 @@
 {
-  "/grandprize/page": "app/grandprize/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
-  "/ewallet1/page": "app/ewallet1/page.js",
-  "/ewallet2/page": "app/ewallet2/page.js",
-  "/ewallet3/page": "app/ewallet3/page.js",
-  "/smartwatch/page": "app/smartwatch/page.js",
-  "/tumbler/page": "app/tumbler/page.js",
-  "/speaker/page": "app/speaker/page.js"
+  "/grandprize/page": "app/grandprize/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/smartwatch/page": "app/smartwatch/page.js"
 }

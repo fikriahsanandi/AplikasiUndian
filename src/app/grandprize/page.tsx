@@ -18,13 +18,13 @@ export default function Home() {
 
     useEffect(() => {
         if (typeof window !== "undefined") {
-            setCounter(localStorage.getItem("corkcicle") ? parseInt(localStorage.getItem("corkcicle")!) : 100);
+            setCounter(localStorage.getItem("Grand Prize") ? parseInt(localStorage.getItem("Grand Prize")!) : 100);
         }
     }, []);
 
     useEffect(() => {
         if (typeof window !== "undefined") {
-            setCounter(localStorage.getItem("corkcicle") ? parseInt(localStorage.getItem("corkcicle")!) : 100);
+            setCounter(localStorage.getItem("Grand Prize") ? parseInt(localStorage.getItem("Grand Prize")!) : 100);
             setParticipants(JSON.parse(localStorage.getItem("participantsNPP") || "[]"));
             setParticipantsDummy(JSON.parse(localStorage.getItem("participants") || "[]"));
 
@@ -90,7 +90,7 @@ export default function Home() {
         }, intervalTime);
 
         setCounter((prevCounter: any) => prevCounter - 1);
-        localStorage.setItem("corkcicle", (tunaiCounter - 1).toString());
+        localStorage.setItem("Grand Prize", (tunaiCounter - 1).toString());
     }
 
     return (

@@ -32,14 +32,14 @@ function Home() {
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Home.useEffect": ()=>{
             if ("TURBOPACK compile-time truthy", 1) {
-                setCounter(localStorage.getItem("corkcicle") ? parseInt(localStorage.getItem("corkcicle")) : 100);
+                setCounter(localStorage.getItem("Grand Prize") ? parseInt(localStorage.getItem("Grand Prize")) : 100);
             }
         }
     }["Home.useEffect"], []);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Home.useEffect": ()=>{
             if ("TURBOPACK compile-time truthy", 1) {
-                setCounter(localStorage.getItem("corkcicle") ? parseInt(localStorage.getItem("corkcicle")) : 100);
+                setCounter(localStorage.getItem("Grand Prize") ? parseInt(localStorage.getItem("Grand Prize")) : 100);
                 setParticipants(JSON.parse(localStorage.getItem("participantsNPP") || "[]"));
                 setParticipantsDummy(JSON.parse(localStorage.getItem("participants") || "[]"));
                 setAudio(new Audio("/efek_undian.mp3"));
@@ -105,7 +105,7 @@ function Home() {
             }
         }, intervalTime);
         setCounter((prevCounter)=>prevCounter - 1);
-        localStorage.setItem("corkcicle", (tunaiCounter - 1).toString());
+        localStorage.setItem("Grand Prize", (tunaiCounter - 1).toString());
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [

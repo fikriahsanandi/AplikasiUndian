@@ -15,6 +15,7 @@ export default function Home() {
   const [participantsDummy, setParticipantsDummy]: any = useState([]);
   const [audio, setAudio]: any = useState(null);
   const [confettiAudio, setConfettiAudio]: any = useState(null);
+  const [yehawAudio, setYehawAudio]: any = useState(null);
   const [winners, setWinners]: any = useState(
     JSON.parse(localStorage.getItem("winnersEwallet3") || "[]")
   );
@@ -36,6 +37,7 @@ export default function Home() {
 
       setAudio(new Audio("/efek_undian.mp3"));
       setConfettiAudio(new Audio("/efek_confetti.mp3"));
+      setYehawAudio(new Audio("/yehaaw.mp3"));
     }
   }, []);
 
@@ -55,7 +57,7 @@ export default function Home() {
     let choosenIndex = 0;
     let winners: any[] = [];
 
-    const totalWinners = 30;
+    const totalWinners = 17;
     const totalIterations = 10;
     const intervalTime = 2;
 
@@ -87,7 +89,7 @@ export default function Home() {
               // Hapus dari peserta
               participants.splice(choosenIndex, 1);
               localStorage.setItem(
-                "participantsNPP",
+                "participantsNonNPP",
                 JSON.stringify(participants)
               );
 
@@ -110,7 +112,9 @@ export default function Home() {
                 setIsAnimating(false);
                 audio.pause();
                 audio.currentTime = 0;
-                confettiAudio.play();
+                if (winners.length == totalWinners) {
+                  yehawAudio.play();
+                }
                 setTimeout(() => {
                   confettiAudio.pause();
                   confettiAudio.currentTime = 0;

@@ -15,6 +15,7 @@ export default function Home() {
   const [participantsDummy, setParticipantsDummy]: any = useState([]);
   const [audio, setAudio]: any = useState(null);
   const [confettiAudio, setConfettiAudio]: any = useState(null);
+  const [yehawAudio, setYehawAudio]: any = useState(null);
   const [winners, setWinners]: any = useState(
     JSON.parse(localStorage.getItem("winnersEwallet1") || "[]")
   );
@@ -35,6 +36,7 @@ export default function Home() {
 
       setAudio(new Audio("/efek_undian.mp3"));
       setConfettiAudio(new Audio("/efek_confetti.mp3"));
+      setYehawAudio(new Audio("/yehaaw.mp3"));
     }
   }, []);
 
@@ -54,7 +56,7 @@ export default function Home() {
     let choosenIndex = 0;
     let winners: any[] = [];
 
-    const totalWinners = 10;
+    const totalWinners = 17;
     const totalIterations = 10;
     const intervalTime = 2;
 
@@ -109,7 +111,10 @@ export default function Home() {
                 setIsAnimating(false);
                 audio.pause();
                 audio.currentTime = 0;
-                confettiAudio.play();
+                if (winners.length == totalWinners) {
+                  yehawAudio.play();
+                }
+                // confettiAudio.play();
                 setTimeout(() => {
                   confettiAudio.pause();
                   confettiAudio.currentTime = 0;
@@ -162,16 +167,17 @@ export default function Home() {
           </div>
         )}
         <div className="w-[63%] flex gap-2 flex-wrap justify-center mb-6">
-          {winners.map((w: any, idx: any) => {
-            return (
-              <div
-                key={idx}
-                className="bg-[#008109] text-white py-1 px-2 rounded-lg font-semibold"
-              >
-                {w.nama}
-              </div>
-            );
-          })}
+          {winners.length > 0 &&
+            winners.map((w: any, idx: any) => {
+              return (
+                <div
+                  key={idx}
+                  className="bg-[#008109] text-white py-1 px-2 rounded-lg font-semibold"
+                >
+                  {w?.nama}
+                </div>
+              );
+            })}
         </div>
         {tunaiCounter > 0 && (
           <button

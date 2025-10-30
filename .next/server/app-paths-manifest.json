@@ -1,7 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/ewallet3/page": "app/ewallet3/page.js",
-  "/ewallet2/page": "app/ewallet2/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/ewallet1/page": "app/ewallet1/page.js"
-}
